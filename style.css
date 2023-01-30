@@ -14,3 +14,34 @@
   font-size: 30px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.footer {
+  background-color: palevioletred;
+  position: fixed;
+  bottom: 0;
+  height: 80px;
+  width: 100%;
+}
+
+.nav {
+  color: snow;
+  list-style: none;
+  justify-content: space-around;
+  display: flex;
+  margin-top: 15px;
+}
+
+.homepage {
+  width: 40px;
+  height: auto;
+}
+
+.bookmark {
+  width: 40px;
+  height: auto;
+}
+
+.profile {
+  width: 40px;
+  height: auto;
+}
