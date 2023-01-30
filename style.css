@@ -47,7 +47,7 @@
 }
 
 .question-box {
-  border: gray solid 1px;
+  border: lightgray solid 1px;
   background-color: blanchedalmond;
   display: flex;
   justify-content: center;
@@ -69,9 +69,9 @@
 }
 
 .answer-button {
-  background-color: white;
+  background-color: palevioletred;
   border: none;
-  color: palevioletred;
+  color: white;
   padding: 15px 28px;
   text-align: center;
   font-size: 15px;
@@ -79,7 +79,7 @@
 
 .hashtags {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   list-style: none;
   justify-content: flex-start;
   position: absolute;
@@ -92,4 +92,5 @@
 .hashtag-item {
   background-color: white;
   padding: 7px 14px;
+  border-radius: 8px;
 }
