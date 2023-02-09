@@ -67,7 +67,17 @@
   height: auto;
   position: absolute;
   right: 0;
-  top: 0;
+  top: -15px;
+  border: none;
+  background-color: transparent;
+}
+
+.question-box_bookmark--active {
+  color: lightgrey;
+}
+
+.bookmark-icon {
+  fill: currentColor;
 }
 
 .question-box_question {
