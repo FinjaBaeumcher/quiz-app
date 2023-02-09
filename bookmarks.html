@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz-App</title>
     <link rel="stylesheet" href="./bookmarks.css" />
+    <script src="bookmarks.js" defer></script>
   </head>
 
   <body>
@@ -14,10 +15,8 @@
     </header>
 
     <section class="question-box">
-      <img class="question-box_bookmark" src="bookmark-icon.svg" alt="bookmark" />
-      <p class="question-box_question">
-        What property flips the axes in flexbox?
-      </p>
+      <button type="button" class="question-box_bookmark" data-js="question-box-bookmark"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon bookmark-icon" viewBox="0 0 512 512"><title>Bookmark</title><path d="M400 480a16 16 0 01-10.63-4L256 357.41 122.63 476A16 16 0 0196 464V96a64.07 64.07 0 0164-64h192a64.07 64.07 0 0164 64v368a16 16 0 01-16 16z"/></svg></button> 
+      <p class="question-box_question"> What property flips the axes in flexbox? </p>
       <button class="question-box--button_answer">Show Answer</button>
       <ul class="question-box_hashtags">
         <li class="question-box_hashtag-item">#html</li>
@@ -27,7 +26,7 @@
     </section>
 
     <section class="question-box">
-      <img class="question-box_bookmark" src="bookmark-icon.svg" alt="bookmark" />
+      <button type="button" class="question-box_bookmark" data-js="question-box-bookmark"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon bookmark-icon" viewBox="0 0 512 512"><title>Bookmark</title><path d="M400 480a16 16 0 01-10.63-4L256 357.41 122.63 476A16 16 0 0196 464V96a64.07 64.07 0 0164-64h192a64.07 64.07 0 0164 64v368a16 16 0 01-16 16z"/></svg></button>
       <p class="question-box_question">Lorem ipsum?</p>
       <button class="question-box--button_answer">Show Answer</button>
       <ul class="question-box_hashtags">
